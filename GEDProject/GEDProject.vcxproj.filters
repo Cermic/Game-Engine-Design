@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PlanetDecorators">
+      <UniqueIdentifier>{af1d56f7-b683-48f1-b145-d6c7caf5e22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Planet">
+      <UniqueIdentifier>{a5ebea57-a5f6-4fcd-90a5-0ed9111e695c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemies">
+      <UniqueIdentifier>{5fd6e944-fd84-45d7-b76c-dcb776d666d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{a3d7f64a-677d-4495-a037-3851a19b15b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FriendlyNPCs">
+      <UniqueIdentifier>{121b6d0f-67eb-40e0-b403-bbf73362c19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{f2913b4c-fb05-48fc-8bd5-6d86d0b81da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FriendlyNPCs\Healers">
+      <UniqueIdentifier>{6ab722a2-6fff-4647-b14c-ef419ffcee59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FriendlyNPCs\Suppliers">
+      <UniqueIdentifier>{8602cddf-a9ae-4819-924f-145065e518ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NPCs">
+      <UniqueIdentifier>{c3c182b8-a4da-4284-8673-0a43b58fc1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factories">
+      <UniqueIdentifier>{e6c65842-f058-410d-af7a-45fe2aca46c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FriendlyNPCs">
+      <UniqueIdentifier>{aac12bb7-219d-4551-b417-a3c5845ddf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{6f9f3899-ac51-4175-8611-db6237ee3fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NPCGen">
+      <UniqueIdentifier>{f12d97f8-9dc4-4819-bc0c-b8c794fcf6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Planet">
+      <UniqueIdentifier>{15853d8a-b2a3-406d-809f-853a1e6cbed4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PlanetDecorators">
+      <UniqueIdentifier>{1cf5c785-fa35-47f3-8662-f875ac9e9131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FriendlyNPCs\Healer">
+      <UniqueIdentifier>{6d3604bf-b1f4-4fe8-876b-3dd6a7a5f2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FriendlyNPCs\Supplier">
+      <UniqueIdentifier>{99c74ee6-5ad9-4796-81fe-32737456f448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{572419fc-5f6e-4a55-935c-d00e51c65243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{3b4a9bcf-7043-4a45-8c9d-56aaa1d9a089}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplorationState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEndState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="LootState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCConverseState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="TravellingState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="HealerFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="SupplierFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Medic.cpp">
+      <Filter>Source Files\FriendlyNPCs\Healer</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceSupplier.cpp">
+      <Filter>Source Files\FriendlyNPCs\Supplier</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponMerchant.cpp">
+      <Filter>Source Files\FriendlyNPCs\Supplier</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCGenerator.cpp">
+      <Filter>Source Files\NPCGen</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Source Files\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanetGenerator.cpp">
+      <Filter>Source Files\Planet</Filter>
+    </ClCompile>
+    <ClCompile Include="Arid.cpp">
+      <Filter>Source Files\PlanetDecorators</Filter>
+    </ClCompile>
+    <ClCompile Include="Flat.cpp">
+      <Filter>Source Files\PlanetDecorators</Filter>
+    </ClCompile>
+    <ClCompile Include="Hub.cpp">
+      <Filter>Source Files\PlanetDecorators</Filter>
+    </ClCompile>
+    <ClCompile Include="Marine.cpp">
+      <Filter>Source Files\PlanetDecorators</Filter>
+    </ClCompile>
+    <ClCompile Include="Polar.cpp">
+      <Filter>Source Files\PlanetDecorators</Filter>
+    </ClCompile>
+    <ClCompile Include="Rough.cpp">
+      <Filter>Source Files\PlanetDecorators</Filter>
+    </ClCompile>
+    <ClCompile Include="Tropical.cpp">
+      <Filter>Source Files\PlanetDecorators</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplorationState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEndState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="LootState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCConverseState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="TravellingState.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractEnemyNPC.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcherEnemy.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GunnerEnemy.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeEnemy.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="HealerFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="SupplierFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractHealer.h">
+      <Filter>Header Files\FriendlyNPCs\Healers</Filter>
+    </ClInclude>
+    <ClInclude Include="Medic.h">
+      <Filter>Header Files\FriendlyNPCs\Healers</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSupplier.h">
+      <Filter>Header Files\FriendlyNPCs\Suppliers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceSupplier.h">
+      <Filter>Header Files\FriendlyNPCs\Suppliers</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponMerchant.h">
+      <Filter>Header Files\FriendlyNPCs\Suppliers</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractNPC.h">
+      <Filter>Header Files\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCGenerator.h">
+      <Filter>Header Files\NPCs</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractPlanet.h">
+      <Filter>Header Files\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Header Files\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetDecorator.h">
+      <Filter>Header Files\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanetGenerator.h">
+      <Filter>Header Files\Planet</Filter>
+    </ClInclude>
+    <ClInclude Include="Arid.h">
+      <Filter>Header Files\PlanetDecorators</Filter>
+    </ClInclude>
+    <ClInclude Include="Flat.h">
+      <Filter>Header Files\PlanetDecorators</Filter>
+    </ClInclude>
+    <ClInclude Include="Hub.h">
+      <Filter>Header Files\PlanetDecorators</Filter>
+    </ClInclude>
+    <ClInclude Include="Marine.h">
+      <Filter>Header Files\PlanetDecorators</Filter>
+    </ClInclude>
+    <ClInclude Include="Polar.h">
+      <Filter>Header Files\PlanetDecorators</Filter>
+    </ClInclude>
+    <ClInclude Include="Rough.h">
+      <Filter>Header Files\PlanetDecorators</Filter>
+    </ClInclude>
+    <ClInclude Include="Tropical.h">
+      <Filter>Header Files\PlanetDecorators</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
