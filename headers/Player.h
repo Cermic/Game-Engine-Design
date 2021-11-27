@@ -11,14 +11,14 @@ I am aware of the penalties incurred by submitting in full or in part work that 
 */
 #pragma once
 #include "PlayerState.h"
-#include "BattleState.h"
-#include "ExplorationState.h"
-#include "IdleState.h"
-#include "LootState.h"
-#include "NPCConverseState.h"
-#include "TravellingState.h"
-#include "GameEndState.h"
-#include "random.h"
+#include "States/BattleState.h"
+#include "States/ExplorationState.h"
+#include "States/IdleState.h"
+#include "States/LootState.h"
+#include "States/NPCConverseState.h"
+#include "States/TravellingState.h"
+#include "States/GameEndState.h"
+#include "Utilities/random.h"
 #include "Subject.h"
 #include <vector>
 #include <iostream>

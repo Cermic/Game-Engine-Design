@@ -12,9 +12,9 @@ I am aware of the penalties incurred by submitting in full or in part work that 
 #pragma once
 #include "Player.h"
 #include "Observer.h"
-#include "random.h"
-#include "NPCGenerator.h"
-#include "PlanetGenerator.h"
+#include "Utilities/random.h"
+#include "NPCs/NPCGenerator.h"
+#include "Planet/PlanetGenerator.h"
 #include <iostream>
 #include <string>
 
