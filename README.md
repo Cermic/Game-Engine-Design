@@ -2,7 +2,7 @@
 
 A game engine that supports a text based game. This was created as a demonstration of use of multiple design patterns be implemented into a single project but working independently of each other. Includes the State pattern, Factory pattern, basic Facade pattern, Decorator pattern and Observer pattern.
 
-This project was written with C++ and can be compiled with CMake and any relevant compiler.
+This project was written with C++ and can be compiled with CMake and any relevant compiler. e.g. ```cmake -S . -B build```
 
 ## Brief Description of Patterns Used / Design
 For our design we opted for using the State Pattern, the Factory Pattern, the Decorator Pattern, the Observer Pattern and the Façade Pattern. 
