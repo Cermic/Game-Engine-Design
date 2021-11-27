@@ -25,3 +25,6 @@ In future I would propose the following changes:
 -	The menu could be changed to give more of the functionality back to the State pattern. This would allow more flexibility when adding more states to the game.
 -	We would like to add in the player’s movement being affected depending on the planet type. For example, the player will move slower in a tropical environment than in an arid one. This creates additional factors for the player to consider when visiting a planet. The slower the movement speed, the more resources the player will use up when moving around.  
 -	We would like the player to be able to find random loot on exploration.
+
+## Screenshots
+![Exploring](screenshots/exploring.PNG) ![Battle](screenshots/battle.PNG) ![Player Details](screenshots/player-details.PNG)
