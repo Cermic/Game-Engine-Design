@@ -27,4 +27,6 @@ In future I would propose the following changes:
 -	We would like the player to be able to find random loot on exploration.
 
 ## Screenshots
-![Exploring](screenshots/exploring.PNG) ![Battle](screenshots/battle.PNG) ![Player Details](screenshots/player-details.PNG)
+Exploring State                  | Battle State                |  Player Details
+:-------------------------------:|:---------------------------:|:-----------------------------------
+![](screenshots/exploring.PNG)   | ![](screenshots/battle.PNG) | ![](screenshots/player-details.PNG)
